@@ -1,0 +1,12 @@
+.list_wrapper {
+  /* margin: auto 1rem auto 1rem; */
+  margin: 2.8rem 1rem 1rem 1rem;
+  border-radius: 20px;
+  /* overflow: scroll; */
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #50b856;
+}

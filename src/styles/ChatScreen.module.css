@@ -1,0 +1,35 @@
+.chat_wrapper {
+  margin: 2.8rem 1rem 1rem 1rem;
+  border-radius: 20px;
+  /* overflow: scroll; */
+  height: 90vh;
+  overflow: hidden;
+
+  background-color: #50b856;
+}
+
+.chat_wrapper span {
+  background-color: #b1dfb4;
+  padding: 3rem;
+  margin-top: 6rem;
+  border-radius: 100%;
+  border: 4px solid #000;
+}
+
+.chat_wrapper span svg {
+  font-size: 10rem;
+}
+
+.chat_wrapper p {
+  margin-top: 5rem;
+  font-size: 8rem;
+  text-align: center;
+  color: #fff;
+}
+.only_notactive {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* justify-content: space-around; */
+  align-items: center;
+}

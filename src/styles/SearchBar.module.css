@@ -1,0 +1,38 @@
+.input_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+}
+
+.input_box label span svg {
+  font-size: 2.4rem;
+  /* margin-right: 1rem; */
+}
+
+.input_box label span {
+  margin-right: 1.6rem;
+  padding: 0.4rem;
+  background-color: #9ed8a1;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_box label span:hover {
+  cursor: pointer;
+}
+
+.input_box input {
+  outline: none;
+  border: none;
+  font-size: 2.4rem;
+}
+
+.input_box input::placeholder {
+  opacity: 0.4;
+}
